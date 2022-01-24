@@ -1,0 +1,30 @@
+.sumTable {
+    border-collapse: collapse;
+}
+.sumTable th, .sumTable td {
+    border:1px solid black;
+} 
+.sumTable th:nth-child(1), .sumTable td:nth-child(1) {
+    border-left:none;
+} 
+.sumTable td {
+    position: relative;
+    width: 60px;
+    max-width: 60px;
+}
+.sumTable tr {
+    width: 100%;
+    border-left: none;
+}
+.sumTable th, .sumTable td {
+    height: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.rightSide {
+    text-align: right;
+}
+.yellow {
+    color: #9C6500;
+    background-color: #FFEE97;
+}

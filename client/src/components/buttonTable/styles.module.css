@@ -1,0 +1,23 @@
+.button {
+  margin-top: 1px;
+  width: 50px;
+  height: 30px;
+  background: linear-gradient( #abc9f7, #5fa3e7);  
+  border: 1px solid #68a8e9;
+  color: white;
+  font-size: 28px;
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.button:hover {
+  opacity: 1;
+}
+.buttonTable{
+  border-collapse: collapse;
+}
+
+.buttonTable tr, .buttonTable td {
+  height: 30px;
+}

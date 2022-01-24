@@ -1,0 +1,55 @@
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  border: 1px solid black;
+}
+.table td:focus {
+  outline: none;
+}
+.table td {
+  position: relative;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  width: 60px;
+  max-width: 60px;
+}
+.table tr {
+  width: 100%;
+}
+.table th,
+.table td {
+  height: 30px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.red {
+  color: #9c0006;
+  background-color: #ffc7ce;
+}
+.green {
+  color: #006100;
+  background-color: #c6efce;
+}
+.grey {
+  background-color: #dbdbdb;
+}
+.x {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  background-color: white;
+  padding: 2px;
+}
+.center {
+    text-align: center;
+}
+.button {
+  cursor: pointer;
+}
+
